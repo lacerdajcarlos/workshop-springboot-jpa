@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.acl.course.entites.Order;
-import com.acl.course.repositores.OrderRepository;
+import com.acl.course.entities.Order;
+import com.acl.course.repositories.OrderRepository;
 
 @Service
 public class OrderService {

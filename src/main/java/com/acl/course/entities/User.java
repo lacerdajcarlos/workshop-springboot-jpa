@@ -1,4 +1,4 @@
-package com.acl.course.entites;
+package com.acl.course.entities;
 
 import java.io.Serializable;
 import java.util.ArrayList;

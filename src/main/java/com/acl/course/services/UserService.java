@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.acl.course.entites.User;
-import com.acl.course.repositores.UserRepository;
+import com.acl.course.entities.User;
+import com.acl.course.repositories.UserRepository;
 
 @Service
 public class UserService {

@@ -1,8 +1,8 @@
-package com.acl.course.repositores;
+package com.acl.course.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.acl.course.entites.Product;
+import com.acl.course.entities.Product;
 
 public interface ProductRepository extends JpaRepository<Product, Long>{
 	

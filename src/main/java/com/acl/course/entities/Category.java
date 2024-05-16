@@ -1,4 +1,4 @@
-package com.acl.course.entites;
+package com.acl.course.entities;
 
 import java.io.Serializable;
 import java.util.HashSet;
@@ -11,7 +11,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.Table;
-import jakarta.persistence.Transient;
 
 @Entity
 @Table(name = "tb_category")
