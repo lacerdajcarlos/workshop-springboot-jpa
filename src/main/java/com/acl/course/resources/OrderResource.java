@@ -13,7 +13,7 @@ import com.acl.course.entities.Order;
 import com.acl.course.services.OrderService;
 
 @RestController
-@RequestMapping("value =/orders")
+@RequestMapping(value = "/orders")
 public class OrderResource {
 
 	@Autowired

@@ -13,7 +13,7 @@ import com.acl.course.entities.Product;
 import com.acl.course.services.ProductService;
 
 @RestController
-@RequestMapping("value =/products")
+@RequestMapping(value = "/products")
 public class ProductResource {
 
 	@Autowired
